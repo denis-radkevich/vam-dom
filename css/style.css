@@ -1,0 +1,303 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    
+
+    /* Гладкий шрифт при увеличении */
+    -webkit-font-smoothing: antialiased;
+    /* Скроллинг при помощи тача на смартфоне */
+    -webkit-overflow-scrolling: touch;
+}
+
+body p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+/* ============================================= */
+
+/* Шапка страницы */
+
+header {
+    color: #FFFFFF;
+    background-color: #006837;
+    padding: 2px 0;
+}
+
+/* Логотип дома */
+.logo {
+    margin-top: 0px;
+    padding: 0px;
+}
+
+/* Название логотипа */
+.header_name_logo {
+    line-height: 28px;
+    font-size: 23px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+/* Контакты для связи */
+.header_name_contact {
+    text-align: right;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* Цвет ссылки */
+p a {
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: transparent;
+} 
+
+p a:hover {
+    color: #00ffff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+/* Адрес дома */
+.header_adress {
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: inherit;
+}
+
+/* Конец шапки страницы */
+/* ============================================= */
+
+
+/* ============================================= */
+/* Основные блоки */
+
+/* Блок первый экран */
+.one_screen {
+    padding: 20px 0 0 0;
+    color: #FFFFFF;
+    background-color: #22B573;
+}
+
+/* Заголовок первого экрана */
+.name_heading {
+    padding-bottom: 25px;
+    text-shadow: 6px 6px 8px rgba(0,0,0,0.5);
+    text-align: center;
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 53px;
+}
+
+/* Список ключевых особенностей объекта - заголовок */
+
+.object_features {
+    padding-top: 1px;
+}
+
+/* Пункты списка */
+.attention {
+   padding: -100px;
+}
+
+p {
+    display: inline-block;
+
+}
+
+/* Название блока ключевые особенности объекта */
+.name_object_features {
+    display: inline-block;
+    text-decoration: underline;
+    font-size: 17px;
+}
+
+/* Список ключевых особенностей объекта - объекты */
+.attention {
+    color: #ffff00;
+    font-weight: bold;
+}
+
+/* Строка контакты */
+.name_contact_one {
+    display: inline-block;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Свойство картинки */
+.image_one_screen {
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+/* Строка предложение */
+.name_offer {
+    display: inline-block;
+    color: #ffff00;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Конец первого экрана */
+/* ============================================= */
+
+
+/* ============================================= */
+/* Начало блока плана дома */
+.plan_home {
+    padding: 40px 0 20px 0;
+}
+/* Конец блока плана дома */
+/* ============================================= */
+
+
+/* ============================================= */
+/* Начало блок Подробнее об объекте */
+.block_object {
+    padding: 30px 0 30px 0;  
+    color: #FFFFFF;
+    background-color: #006837;
+}
+
+/* Текст План дома подробнее */
+.name_object {
+    text-align: center;
+    line-height: 72px;
+    font-size: 60px;
+    font-weight: bold;
+}
+/* Конец блок Подробнее об объекте */
+/* ============================================= */
+
+
+/* ============================================= */
+/* Начало Блок с фотографией комнаты */
+
+/* Картинка плана комнаты */
+.block_plan {
+    text-align: center;
+}
+
+/* Заголовка объекта (комнаты) */
+.name_room {
+    padding: 0 0 10px 0;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+/* Свойство фотографии комнаты */
+.image_room {
+    border: 1px solid #000000;
+}
+
+/* Свойство кнопки блока */
+.buttom_room {
+    padding-top: 10px;
+}
+
+/* Свойства блока комнаты */
+.room_block {
+    padding: 50px 0 0 0;
+}
+
+/* Конец Блок с фотографией комнаты */
+/* ============================================= */
+
+
+/* ============================================= */
+/* Начало подвал стараницы */
+
+/* p a .tel {
+    color: #000000;
+}
+ */
+.contact_two {
+    padding: 50px 0 5px 0;
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+}
+
+.contact_two a {
+    padding: 50px 0 5px 0;
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+}
+
+.name_offer_two {
+    color: #006837;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Фотография фона карты дома с указателем */
+.photo_map_home {
+    height: 400px;
+    background-image: url(../img/city/00.jpg);
+    border-radius: 100px 100px 0 0;
+}
+
+.maps {
+    background-color: #006837;
+    border-radius: 15px;
+}
+
+.location {
+    padding-bottom: 5px;
+    font-size: 24px;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: center;
+}
+
+.map_bottun {
+    padding: 15px 0;
+}
+
+.block_maps_one {
+    padding-top: 30px;
+    padding-left: 40px;
+}
+
+.name_contact_thee {
+    color: #000000;
+    font-weight: bold;
+}
+
+.name_contact_thee a {
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+}
+/* Конец подвал стараницы */
+/* ============================================= */
+
+
+/* ============================================= */
+/* Начало подвал стараницы */
+
+footer {
+    color: white;
+    background-color: #006837;
+}
+
+.footer_name_dev {
+    padding-top: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.footer_name_discription {
+    padding-bottom: 10px;
+    font-style: italic;
+    text-align: center;
+}
+/* Конец подвал стараницы */
+/* ============================================= */

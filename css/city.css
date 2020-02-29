@@ -1,0 +1,158 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    
+
+    /* Гладкий шрифт при увеличении */
+    -webkit-font-smoothing: antialiased;
+    /* Скроллинг при помощи тача на смартфоне */
+    -webkit-overflow-scrolling: touch;
+}
+
+body p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+/* ============================================= */
+
+/* Шапка страницы */
+.block_object {
+    padding: 10px 0 10px 0;  
+    color: #FFFFFF;
+    background-color: #006837;
+}
+
+/* Текст План дома подробнее */
+.name_object {
+    text-align: center;
+    line-height: 72px;
+    font-size: 56px;
+    font-weight: bold;
+}
+/* Конец шапки страницы */
+/* ============================================= */
+
+
+/* ============================================= */
+/* Основные блоки */
+
+/* Блок первый экран */
+.one_screen {
+    padding: 20px 0 0 0;
+    color: #FFFFFF;
+    background-color: #22B573;
+}
+
+/* Список ключевых особенностей объекта - заголовок */
+
+.object_features {
+    line-height: 22px;
+    font-size: 18px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+p {
+    display: inline-block;
+
+}
+
+/* Название блока ключевые особенности объекта */
+.name_object_features {
+    display: inline-block;
+    text-decoration: underline;
+    font-size: 17px;
+    line-height: 53px;
+}
+
+.maps_city {
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+/* Конец первого экрана */
+/* ============================================= */
+
+
+/* ============================================= */
+/* Начало блока инфаструктура */
+
+/* Название блока с зоголовка*/
+.city_infrastructure {
+    padding: 70px 0;
+    text-align: center;
+    font-size: 73px;
+    font-weight: bold;
+}
+/* Конец блока инфаструктура */
+/* ============================================= */
+
+
+/* ============================================= */
+/* Начало блоки фотографий с инфаструктурой */
+
+.name_picture {
+    color: #FFFFFF;
+    background-color: #006837;
+    text-align: center;
+    font-size: 19px;
+    font-weight: bold;
+    width: 525px;
+}
+
+.name_picture_two {
+    color: #FFFFFF;
+    background-color: #006837;
+    text-align: center;
+    font-size: 19px;
+    font-weight: bold;
+    width: 1100px;
+}
+
+
+/* Свойство блока с картинкой и заголовком */
+.block_picture {
+    padding-bottom: 35px;
+}
+
+/* Конец блоки фотографий с инфаструктурой */
+/* ============================================= */
+
+
+/* ============================================= */
+/* Начало блока с фотографий Толочина */
+.photo_map_city {
+    height: 400px;
+    background-image: url(../img/city/21.jpg);
+    background-position: 100%;
+    border-radius: 100px 100px 0 0;
+}
+/* Конец блока с фотографий Толочина */
+/* ============================================= */
+
+
+
+/* ============================================= */
+/* Начало подвал стараницы */
+
+footer {
+    color: white;
+    background-color: #006837;
+}
+
+.footer_name_dev {
+    padding-top: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.footer_name_discription {
+    padding-bottom: 10px;
+    font-style: italic;
+    text-align: center;
+}
+/* Конец подвал стараницы */
+/* ============================================= */
